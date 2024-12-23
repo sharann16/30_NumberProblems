@@ -1,4 +1,4 @@
-Armstrong Number Checker ✨
+1Armstrong Number Checker ✨
 
 A Java program to check if a number is an Armstrong number, where the number equals the sum of its digits raised to the power of the number of digits.
 
