@@ -10,7 +10,7 @@ Features ✔️
 
 💡 Provides user-friendly console input/output.
 
-## How It Works 🔄
+##How It Works 🔄
 
 Input: User enters a number.
 
@@ -139,7 +139,7 @@ The program calculates the GCD of the two numbers by repeatedly applying the Euc
 Output:
 Prints the GCD of the two numbers.
 
-#7)Perfect Number Checker ✨
+# 7)Perfect Number Checker ✨
 A Java program to check whether a number is a Perfect Number based on the sum of its divisors (excluding itself).
 
 Features ✔️
@@ -158,7 +158,7 @@ Calculates the sum of all divisors of the input number (excluding the number its
 Output:
 Prints a message indicating whether the number is a Perfect Number or Not a Perfect Number.
 
-#8)Prime Number Checker ✨
+# 8)Prime Number Checker ✨
 A Java program to determine whether a number is prime.
 
 Features ✔️
@@ -183,7 +183,7 @@ Prints true if the number is prime.
 Prints false if the number is not prime.
 
 
-#9)Nth Fibonacci Number Finder ✨
+# 9)Nth Fibonacci Number Finder ✨
 A Java program to find the Fibonacci number at a given position.
 
 Features ✔️
@@ -206,7 +206,7 @@ Output:
 Prints the Fibonacci number at the specified position.
 
 
-#10)Sum of First N Natural Numbers ✨
+# 10)Sum of First N Natural Numbers ✨
 A Java program to calculate the sum of the first N natural numbers.
 
 Features ✔️
