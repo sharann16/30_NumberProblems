@@ -2,7 +2,7 @@
 
 A Java program to check if a number is an Armstrong number, where the number equals the sum of its digits raised to the power of the number of digits.
 
-##Features ✔️
+Features ✔️
 
 🌐 Calculates the number of digits.
 
@@ -139,3 +139,89 @@ The program calculates the GCD of the two numbers by repeatedly applying the Euc
 Output:
 Prints the GCD of the two numbers.
 
+# 7)Perfect Number Checker ✨
+A Java program to check whether a number is a Perfect Number based on the sum of its divisors (excluding itself).
+
+Features ✔️
+🔢 Identifies whether a number is Perfect:
+
+A number is considered Perfect if the sum of its divisors (excluding itself) equals the number itself.
+💡 Simple user input and intuitive results.
+
+##How It Works 🔄
+Input:
+User enters a positive number.
+Process:
+Validates that the input is positive.
+Iterates through numbers from 1 to num/2 (divisors cannot exceed half the number).
+Calculates the sum of all divisors of the input number (excluding the number itself).
+Output:
+Prints a message indicating whether the number is a Perfect Number or Not a Perfect Number.
+
+# 8)Prime Number Checker ✨
+A Java program to determine whether a number is prime.
+
+Features ✔️
+🔢 Identifies whether a number is:
+
+Prime: A number greater than 1 with no divisors other than 1 and itself.
+Not Prime: A number that has divisors other than 1 and itself.
+💡 Efficient calculation using square root optimization for divisor checking.
+
+##How It Works 🔄
+Input:
+User enters an integer.
+Process:
+Validates the input:
+If the number is <= 1, it is not a prime number.
+Special case: 2 is a prime number.
+Iterates through numbers from 2 to the square root of the input number.
+Checks if the number has any divisors other than 1 and itself.
+Uses a boolean flag to determine if the number is prime.
+Output:
+Prints true if the number is prime.
+Prints false if the number is not prime.
+
+
+# 9)Nth Fibonacci Number Finder ✨
+A Java program to find the Fibonacci number at a given position.
+
+Features ✔️
+🔢 Calculates the Fibonacci number for any non-negative position:
+
+Fibonacci Sequence: A sequence where each number is the sum of the two preceding ones, starting with 0 and 1.
+💡 Efficient iterative approach to calculate Fibonacci numbers.
+
+##How It Works 🔄
+Input:
+User enters a non-negative integer representing the position in the Fibonacci sequence.
+Process:
+Validates the input:
+If the input is negative, prompts the user to enter a valid non-negative number.
+Handles edge cases for 0 and 1 directly.
+Uses an iterative approach to calculate the Fibonacci number for positions 2 and above:
+Starts with the first two Fibonacci numbers (0 and 1).
+Iteratively computes the Fibonacci number up to the given position.
+Output:
+Prints the Fibonacci number at the specified position.
+
+
+# 10)Sum of First N Natural Numbers ✨
+A Java program to calculate the sum of the first N natural numbers.
+
+Features ✔️
+🔢 Calculates the sum of the first N natural numbers:
+
+Uses the mathematical formula n * (n + 1) / 2 for efficient calculation.
+💡 Simple user input with intuitive output.
+
+##How It Works 🔄
+Input:
+User enters a non-negative integer N.
+Process:
+Validates the input:
+If the input is negative, it prompts the user to enter a non-negative number.
+Calculates the sum of the first N natural numbers using the formula:
+sum = n * (n + 1) / 2
+Output:
+Prints the sum of the first N natural numbers.
