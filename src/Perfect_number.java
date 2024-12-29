@@ -14,6 +14,9 @@ public class Perfect_number {
         if(sum==num){
         System.out.println("true");
         }
-
+        else {
+            System.out.println("false");
+        }
+        sc.close();
     }
 }

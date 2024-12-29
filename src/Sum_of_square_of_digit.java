@@ -12,5 +12,6 @@ public class Sum_of_square_of_digit {
             num=num/10;
         }
         System.out.println(sum);
+        sc.close();
     }
 }

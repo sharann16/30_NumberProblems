@@ -10,5 +10,6 @@ public class Division_of_a_number {
                 System.out.print(i+",");
             }
         }
+        sc.close();
     }
 }

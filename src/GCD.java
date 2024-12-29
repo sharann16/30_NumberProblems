@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class GCD {
-    public void display(){
+    public void FindGCD(){
         Scanner sc=new Scanner(System.in);
         int a,b;
         System.out.println("enter teo number one by one");
@@ -13,6 +13,7 @@ public class GCD {
         else {
             gcd(a,b);
         }
+        sc.close();
     }
     public int gcd(int small,int large){
         while(large%small!=0){
@@ -20,7 +21,7 @@ public class GCD {
                 small=large%small;
                 large=temp;
         }
-        System.out.println(large);
-        return large;
+        System.out.println(small);
+        return small;
     }
 }

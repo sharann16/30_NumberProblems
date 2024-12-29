@@ -8,7 +8,8 @@ public class SumofDigitsUntilSingleDigit {
         while(num>10){
             num=sumOfDigit(num);
         }
-        System.out.println(sumOfDigit(num));
+        System.out.println(num);
+        sc.close();
     }
     public int sumOfDigit(int num){
         int sum=0;

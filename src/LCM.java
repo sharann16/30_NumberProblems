@@ -13,12 +13,16 @@ public class LCM {
             System.out.println(findLcm(b,a));
         }
     }
-    public int findLcm(int a,int b){
-        while (b%a!=0){
-            if(b%a!=0){
-                b*=2;
-            }
+    public int findGcd(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
         }
-        return b;
+        return a;
+    }
+    public int findLcm(int a,int b){
+
+        return (a*b)/findGcd(a,b);
     }
 }

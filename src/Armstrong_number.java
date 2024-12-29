@@ -21,6 +21,7 @@ public class Armstrong_number {
         else {
             System.out.println("false");
         }
+        sc.close();
     }
     public int pow(int last,int length) {
         int power=1;

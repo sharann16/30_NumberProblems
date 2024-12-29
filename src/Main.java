@@ -60,7 +60,7 @@ public class Main{
                     break;
                 case 5:
                     GCD gcd=new GCD();
-                    gcd.display();
+                    gcd.FindGCD();
                     break;
                 case 6:
                     Factorial fact=new Factorial();

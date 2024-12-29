@@ -17,6 +17,6 @@ public class Palindrome_number {
         }else {
             System.out.println("false");
         }
-
+        sc.close();
     }
 }

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.*;
 public class sum_of_digits {
-    public int sumofdijit(){
+    public void sumofdijit(){
         Scanner sc=new Scanner(System.in);
         System.out.println("enter number");
         int num=sc.nextInt();
@@ -12,6 +12,6 @@ public class sum_of_digits {
             num=num/10;
         }
         System.out.println(sum);
-    return  0;
+        sc.close();
     }
 }

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Reverse_a_number {
-    public int reverse(){
+    public void reverse(){
         Scanner sc=new Scanner(System.in);
         System.out.println("enter number to reverse");
         int num=sc.nextInt();
@@ -12,6 +12,6 @@ public class Reverse_a_number {
             num=num/10;
         }
         System.out.println(rev);
-        return 0;
+        sc.close();
     }
 }
