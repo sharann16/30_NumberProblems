@@ -2,7 +2,7 @@
 
 A Java program to check if a number is an Armstrong number, where the number equals the sum of its digits raised to the power of the number of digits.
 
-##Features ✔️
+Features ✔️
 
 🌐 Calculates the number of digits.
 
@@ -10,7 +10,7 @@ A Java program to check if a number is an Armstrong number, where the number equ
 
 💡 Provides user-friendly console input/output.
 
-##How It Works 🔄
+## How It Works 🔄
 
 Input: User enters a number.
 
