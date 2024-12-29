@@ -75,8 +75,8 @@ public class Main{
                     pr.prime();
                     break;
                 case 9:
-                    nth_fibonacci fibo=new nth_fibonacci();
-                    fibo.finbonacci();
+                    Nth_fibonacci fibo=new Nth_fibonacci();
+                    fibo.fibonacci();
                     break;
                 case 10:
                     Sum_of_firstn_natural natur=new Sum_of_firstn_natural();
